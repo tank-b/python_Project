@@ -141,9 +141,9 @@ def protected():
 
             #puis on compare les 2 :
             if last_closing_hour > current_hour:
-                print("succcccccès")
+                print("succès comparaison d'heures")
             else:
-                print("eeeechhhhec")
+                print("échec comparaison d'heures")
 
         else:
             current_date = str(current_date)
@@ -151,7 +151,6 @@ def protected():
             return last_session_date
 
 
-        #last_session = datetime.combine(datetime.strptime(last_session.datetime.date, "%d %b %y"), datetime.datetime.timedelta.strptime(last_session, "%H%M").time())
 
 
 

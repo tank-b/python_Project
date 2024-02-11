@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f304b9-6eec-4bf6-980e-10cf2b26ccbd" name="Changes" comment="">
+    <list default="true" id="c7f304b9-6eec-4bf6-980e-10cf2b26ccbd" name="Changes" comment="pythonProject">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -124,8 +124,17 @@
       <option name="presentableId" value="Default" />
       <updated>1707596639758</updated>
       <workItem from="1707596665922" duration="4868000" />
-      <workItem from="1707650524523" duration="24601000" />
+      <workItem from="1707650524523" duration="25274000" />
     </task>
+    <task id="LOCAL-00001" summary="pythonProject">
+      <option name="closed" value="true" />
+      <created>1707681961599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707681961599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +142,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pythonProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="pythonProject" />
   </component>
 </project>
