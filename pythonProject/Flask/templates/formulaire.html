@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'avancement</title>
+</head>
+<body>
+
+<form action = "/formulaire" method="post">
+    <h1>Bonjour {{ username }}</h1>
+    <p>Avancement :</p>
+    <div>
+      <input type="range" id="avancement" name="avancement" min="0" max="100" />
+      <label for="avancement">100%</label>
+    </div>
+    <p>Difficulté :</p>
+    <div>
+    <input type="radio" id="facile" value="facile"name="difficulte" checked />
+        <label for="facile">Facile</label>
+
+        <input type="radio" id="ok" value="ok" name="difficulte" />
+        <label for="ok">Ok</label>
+
+        <input type="radio" id="complique" value="complique" name="difficulte" />
+        <label for="complique">Un peu compliqué</label>
+
+        <input type="radio" id="tres_complique" value="tres_complique"name="difficulte" />
+        <label for="tres_complique">Très compliqué</label>
+
+        <input type="radio" id="au_secours" value="au_secours" name="difficulte" />
+        <label for="au_secours">Au secours</label>
+    </div>
+
+
+    <p>Progression :</p>
+    <div>
+        <input type="radio" id="compris" value="compris" name="progression" checked />
+        <label for="compris">J'ai compris</label>
+
+
+        <input type="radio" id="pratiquer" value="pratiquer" name="progression" />
+        <label for="pratiquer">Je dois encore pratiquer</label>
+
+        <input type="radio" id="flou" value="flou" name="progression" />
+        <label for="flou">C'est flou</label>
+    </div>
+
+    <input type="submit" value="Envoyer" />
+</form>
+</body>
+</html>
